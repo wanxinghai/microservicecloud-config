@@ -15,7 +15,7 @@ mybatis:
 spring:
    profiles: dev
    application:
-    name: microservicecloud-dept 
+    name: microservicecloud-config-dept-client
    datasource:
     validationQuery: SELECT 'x'
     testWhileIdle: true
@@ -58,7 +58,7 @@ mybatis:
 spring:
    profiles: dev
    application:
-    name: microservicecloud-dept 
+    name: microservicecloud-config-dept-client
    datasource:
     validationQuery: SELECT 'x'
     testWhileIdle: true
