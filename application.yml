@@ -1,0 +1,16 @@
+﻿spring: 
+    profiles: 
+      active: 
+      - dev
+---
+spring: 
+    profiles: dev
+    application: 
+      name: microservicecloud-config-kish-dev
+---
+spring: 
+    profiles: test
+    application: 
+      name: microservicecloud-config-kish-test
+
+#保存为UTF-8格式
